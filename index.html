@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>NightCity RP — FiveM Server</title>
+<meta name="description" content="Serious FiveM roleplay. Active staff, stable economy, real players. Connect in under 60 seconds." />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<main>
+  <!-- 1. ABOVE THE FOLD -->
+  <section class="hero">
+    <div class="badge"><span class="dot"></span> <span id="status-text">Checking server…</span></div>
+    <h1>NightCity RP</h1>
+    <p class="tagline">Serious roleplay. No cringe. Active staff. Stable economy.</p>
+
+    <div class="cta-row">
+      <a href="fivem://connect/play.nightcityrp.com" class="btn btn-primary" id="connect-btn">
+        Connect now
+      </a>
+      <button class="btn btn-ghost" id="copy-ip" data-ip="play.nightcityrp.com">
+        Copy IP
+      </button>
+    </div>
+
+    <div class="stats">
+      <div><strong id="player-count">—</strong><span>players online</span></div>
+      <div><strong id="uptime">—</strong><span>uptime</span></div>
+      <div><strong id="ping">—</strong><span>region</span></div>
+    </div>
+  </section>
+
+  <!-- 2. HOW TO JOIN -->
+  <section class="card">
+    <h2>How to join</h2>
+    <ol class="steps">
+      <li><span>1</span> Install <a href="https://fivem.net/" target="_blank" rel="noopener">FiveM</a></li>
+      <li><span>2</span> Press <kbd>F8</kbd> in-game → type <code>connect play.nightcityrp.com</code></li>
+      <li><span>3</span> You're in. Read the rules in Discord.</li>
+    </ol>
+  </section>
+
+  <!-- 3. DISCORD -->
+  <section class="card discord">
+    <div>
+      <h2>Join the Discord</h2>
+      <p>Whitelist, support, updates and giveaways. This is where the server actually lives.</p>
+    </div>
+    <a href="https://discord.gg/your-invite" class="btn btn-primary" target="_blank" rel="noopener">Join Discord</a>
+  </section>
+
+  <!-- 4. FEATURES -->
+  <section class="card">
+    <h2>What's inside</h2>
+    <ul class="features">
+      <li><strong>Police & EMS</strong><span>Active whitelisted departments.</span></li>
+      <li><strong>Legal jobs</strong><span>Trucker, mechanic, taxi and more.</span></li>
+      <li><strong>Gangs</strong><span>Turf, drugs, conflicts. Earned, not given.</span></li>
+      <li><strong>Housing</strong><span>Own apartments, shells and stash points.</span></li>
+      <li><strong>Economy</strong><span>Balanced. No pay-to-win.</span></li>
+      <li><strong>Custom cars</strong><span>Curated, optimized pack.</span></li>
+    </ul>
+  </section>
+
+  <!-- 5. RULES -->
+  <section class="card">
+    <h2>Core rules</h2>
+    <ol class="rules">
+      <li>No RDM / VDM.</li>
+      <li>No metagaming or stream sniping.</li>
+      <li>Stay in character at all times in-city.</li>
+      <li>No cheats, exploits or modded clients. Instant perma-ban.</li>
+      <li>Respect staff decisions. Appeals go in Discord.</li>
+      <li>NLR: forget your death for 15 minutes.</li>
+    </ol>
+    <p class="muted">Breaking rules → warn → kick → ban. We don't argue in chat.</p>
+  </section>
+
+  <footer>
+    <p>© <span id="year"></span> NightCity RP. Not affiliated with Rockstar Games or Take-Two Interactive.</p>
+  </footer>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
